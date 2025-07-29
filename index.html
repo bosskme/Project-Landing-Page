@@ -7,27 +7,82 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="menu">
-            <!-- Here we have the logo and menu-->
-        </div>
-        <div class="hero">
-            <!--Here we have the page Heror-->
-        </div>
+
+    <!--Top Bar-->
+    <div class="topbar">
+        <div class="logo">Header Logo</div>
+        <nav class="topmenu">
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
+        </nav>
     </div>
-    <div class="content">
-        <div class="information">
-            <!--Here we provide more information-->
+
+    <!--Hero Area-->
+    <section class="hero-area">
+        <div class="hero-content">
+            <div class="hero-headline">This website is awesome</div>
+            <div class="hero-desc">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+            <button class="hero-action">Sign up</button>
         </div>
-        <div class="quote">
-            <!--Here we provide the quote from the founder-->
+        <div class="hero-image-wrap">
+            <div class="image-placeholder">
+                this is a placeholder for an image
+            </div>
         </div>
-        <div class="action-call">
-            <!--Here we provide the Action Call-->
+    </section>
+
+    <!--Random Information Area-->
+    <main>
+        <section class="info-main">
+            <div class="info-title">Some random information.</div>
+            <div class="info-grid">
+                <div>
+                    <div class="info-box"></div>
+                    <div class="info-box-desc">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="info-box"></div>
+                    <div class="info-box-desc">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="info-box"></div>
+                    <div class="info-box-desc">this is some subtext under an illustration or image</div>
+                </div>
+                <div>
+                    <div class="info-box"></div>
+                    <div class="info-box-desc">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonial Area-->
+        <section class="testimonial">
+            <div class="testimonial-quote">
+                This is an inspiring quote, or a testimonial from a customer.  Maybe it’s just filling up space, or maybe people will actually read it. Who knows?  All I know is that it looks nice.
+            </div>
+            <div class="testimonial-author">
+                -Thor, God of Thunder
+            </div>
+        </section>
+
+        <!--Action Call Area-->
+        <section class="cta-panel-section">
+        <div class="cta-panel">
+            <div>
+                <div class="cta-label">Call to action! It’s time!</div>
+                <div class="cta-description">
+                    Sign up for our product by clicking that button right over there!
+                </div>
+            </div>
+            <button class="cta-signup">Sign up</button>
         </div>
-    </div>
-    <footer>
-        <!--Here we have the footer-->
+        </section>
+    </main>
+
+    <!--Footer Area-->
+    <footer class="bottom-footer">
+        Copyright &copy; The Odin Project 2021
     </footer>
 </body>
 </html>
