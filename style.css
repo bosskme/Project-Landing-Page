@@ -97,5 +97,112 @@ body {
 }
 
 .info-main {
-    
+    background: #fff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 55px 14vw 65px 14vw;
+}
+
+.info-title {
+    font-size:36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.info-grid {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info-box {
+    border: 2.5px solid #3882F6;
+    border-radius: 13px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 14px;
+    background: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.info-box-desc {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+}
+
+.testimonial {
+    background: #E5E7EB;
+    padding: 62px 14vw 52px 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.testimonial-author {
+    font-size: 21px;
+    color: #1f2937;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cta-panel-section {
+    background: #fff;
+    padding: 58px 0 67px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-panel {
+    background: #3882F6;
+    border-radius: 10px;
+    width: 81vw;
+    max-width: 850px;
+    min-width: 290px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 44px;
+    color: #F9FAF8;
+    gap: 18px;
+    box-shadow: 0 6px 18px 0 rgba(56, 130, 246, 0.03);
+}
+
+.cta-label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.cta-description {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cta-panel .cta-signup {
+    background: transparent;
+    border: 2.5px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 37px;
+    cursor: pointer;
+    margin-left: 32px;
+    transition: background .2s, color .2s;
+}
+
+.cta-panel .cta-signup:hover {
+    background: #F9FAF8;
+    color: #3882F6;
 }
