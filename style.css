@@ -119,6 +119,9 @@ body {
     flex-wrap: wrap;
     width: 100%;
 }
+div .info-box {
+    max-width: 200px;
+}
 
 .info-box {
     border: 2.5px solid #3882F6;
@@ -128,7 +131,6 @@ body {
     margin-bottom: 14px;
     background: #fff;
     display: flex;
-    align-items: flex-end;
     justify-content: center;
 }
 
@@ -205,4 +207,13 @@ body {
 .cta-panel .cta-signup:hover {
     background: #F9FAF8;
     color: #3882F6;
+}
+
+.bottom-footer {
+    background: #1f2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    text-align: center;
+    padding: 23px 0 16px 0;
+    margin-top: auto;
 }
